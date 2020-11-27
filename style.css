@@ -9,11 +9,13 @@
     margin: 0;
     padding: 0;
     font-family: burb, sans-serif;
+    
 }
 
 body{
     //background: white;
     min-height: 1500px;
+    //overflow: hidden;
 }
 
 section {
@@ -60,9 +62,11 @@ section img {
 
 #fortnite {
     position: relative;
-    top: 180px;
+    top: 0px;
     color: white;
-    font-size: 40em;
+    font-size: 10em;
+
+    overflow: hidden;
     z-index: 1000000000;
     
     
@@ -70,5 +74,6 @@ section img {
 
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30em;
+    font-size: 1em;
+    overflow: hidden;
 }
