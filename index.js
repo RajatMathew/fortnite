@@ -10,5 +10,5 @@ window.addEventListener('scroll', function ()
     lion.style.top = value * 0.5 + 'px';
     blue.style.top = value * 0.5 + 'px';
     girl.style.top = value * 0.25 + 'px';
-    fortnite.style.top = value * 0.15 + 'px';
+    fortnite.style.top = value * 0.2 + 'px';
 })
